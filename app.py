@@ -28,7 +28,7 @@ model_args.max_length=100
 model_args.max_seq_length = 100
 
 
-model = T5Model("mt5", "google/mt5-base", args=model_args , use_cuda=False)
+model = T5Model("mt5", "/home/site/wwwroot", args=model_args , use_cuda=False)
 
 
 @app.route('/')
